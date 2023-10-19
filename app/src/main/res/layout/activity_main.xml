@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blueSky"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/logo"
+        android:layout_marginTop="50sp"
+        android:textAlignment="center"
+        android:textColor="@color/cream"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button_get_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginHorizontal="100sp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/green"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/textButtonGetData"
+        android:textColor="@color/cream" />
+
+    <TextView
+        android:id="@+id/result_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_get_data"
+        android:fontFamily="@font/montserrat_bold"
+        android:layout_marginTop="50sp"
+        android:textAlignment="center"
+        android:textColor="#E0E0E0"
+        android:textSize="19sp" />
+    <TextView
+        android:id="@+id/result_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result_title"
+        android:fontFamily="@font/montserrat_bold"
+        android:layout_marginTop="30sp"
+        android:textAlignment="center"
+        android:textColor="#E0E0E0"
+        android:textSize="19sp" />
+</RelativeLayout>
